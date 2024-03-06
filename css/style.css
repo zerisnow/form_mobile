@@ -33,8 +33,17 @@ input {
     width: 100%;
 }
 
+input::placeholder {
+    color: #c2c2c2;
+    font-style: italic;
+}
+
 select {
     width: 100%;
+}
+
+select#option {
+    height: 35px;
 }
 
 textarea {
